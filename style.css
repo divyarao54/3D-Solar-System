@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#c {
+    background: black;
+    background-size: cover;
+}
+
+.control-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 100;
+    max-height: 90vh;
+    overflow-y: auto;
+    border: 1px solid white;
+}
+
+.slider-control {
+    margin-bottom: 10px;
+}
+
+.slider-control label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.slider-control input[type="range"] {
+    width: 150px;
+}
+
+input{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: auto;
+    background: none;
+    outline: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
